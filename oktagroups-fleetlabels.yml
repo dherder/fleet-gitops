@@ -2,14 +2,12 @@
 apiVersion: v1
 kind: label
 spec:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  name: Everyone
+- name: Everyone
   description: All users in your organization
   label_membership_type: manual
   hosts:
   - daveherder-p14xd9wgvf.local
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  name: Security
+- name: Security
   description: Lockin' stuff down since 1999
   label_membership_type: manual
   hosts:
