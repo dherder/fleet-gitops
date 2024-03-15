@@ -27,7 +27,7 @@ org_settings:
     live_query_disabled: false
     query_reports_disabled: false
     scripts_disabled: false
-    server_url: https://dogfood.fleetdm.com
+    server_url: https://example.com
   org_info:
     contact_url: https://fleetdm.com/company/contact
     org_logo_url: ""
